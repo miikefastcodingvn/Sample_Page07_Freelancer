@@ -490,16 +490,16 @@
 }
 .section-case-content h2 {
   font-family: "Cardo", serif;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 400;
   color: #1A1A1A;
   margin: 0 0 16px 0;
 }
 .section-case-content p {
   font-family: "Inter", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
-  color: #7B848B;
+  color: #697484;
   max-width: 420px; 
   margin: 0;
 }
@@ -540,16 +540,16 @@
 }
 .section-services-content h2{
   font-family: "Cardo", serif;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 400;
-  color: #1A1A1A;
+  color: #132238;
   margin-bottom: 20px;
 }
 section-services-content p{
   font-family: "Inter", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
-  color: #7B848B;
+  color: #556070;
   margin: 0;
 }
 .section-services-wrapper {
@@ -576,8 +576,8 @@ section-services-content p{
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 .section-services-wrapper-icon > img {
-  width: 48px;
-  height: 48px;
+  width: 124px;
+  height: 124px;
   object-fit: contain;
   margin-bottom: 40px; 
 }
@@ -585,21 +585,21 @@ section-services-content p{
   font-family: "Cardo", serif;
   font-size: 24px;
   font-weight: 700;
-  color: #1A1A1A;
+  color: #121314;
   margin: 0 0 16px 0;
 }
 .section-services-wrapper-icon p {
   font-family: "Inter", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.6;
-  color: #666666;
+  color: #697484;
   margin: 0 0 40px 0;
 }
 .section-services-wrapper-icon-button {
   font-family: "Inter", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
-  color: #1A1A1A;
+  color: #121314;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -623,16 +623,16 @@ section-services-content p{
 }
 .section-feedback-content h2 {
   font-family: "Cardo", serif;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 400;
-  color: #1A1A1A;
+  color: #121314;
   margin-bottom: 20px;
 }
 .section-feedback-content p {
   font-family: "Inter", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
-  color: #7B848B;
+  color: #556070;
 }
 .feedback-slider-container {
   display: flex;
@@ -667,7 +667,7 @@ section-services-content p{
   font-family: "Inter", sans-serif;
   font-size: 24px; 
   line-height: 1.6;
-  color: #1A1A1A;
+  color: #121314;
   font-weight: 400;
   margin: 0 auto 40px auto; 
   max-width: 720px;
@@ -682,14 +682,14 @@ section-services-content p{
 }
 .author-name {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
-  color: #1A1A1A;
+  color: #121314;
 }
 .author-role {
   font-family: "Inter", sans-serif;
-  font-size: 13px;
-  color: #7B848B;
+  font-size: 14px;
+  color: #697484;
 }
 .swiper-btn-prev,
 .swiper-btn-next {
@@ -712,7 +712,7 @@ section-services-content p{
 }
 .swiper-btn-prev img,
 .swiper-btn-next img {
-  width: 16px;
+  width: 24px;
   height: auto;
   transition: filter 0.3s ease;
 }
@@ -743,7 +743,7 @@ section-services-content p{
 }
 .contact-platforms-left h2 {
   font-family: "Cardo", serif;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 400;
   line-height: 1.2;
   color: #FFFFFF;
@@ -751,17 +751,17 @@ section-services-content p{
 }
 .contact-platforms-left p {
   font-family: "Inter", sans-serif;
-  font-size: 15px;
+  font-size: 24px;
   line-height: 1.6;
-  color: #7B848B; 
+  color: #87909D; 
   margin: 0 0 40px 0;
 }
 .btn-work-together {
   background-color: #FFFFFF;
-  color: #1A1A1A;
+  color: #121314;
   text-decoration: none;
   font-family: "Inter", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -775,7 +775,7 @@ section-services-content p{
   background-color: #EFEFEF;
 }
 .btn-work-together img {
-  width: 14px;
+  width: 24px;
   height: auto;
 }
 .platforms-list {
@@ -805,7 +805,7 @@ section-services-content p{
 }
 .platform-info h3 {
   font-family: "Cardo", serif;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   color: #FFFFFF;
   margin: 0 0 4px 0;
@@ -813,13 +813,13 @@ section-services-content p{
 }
 .platform-info span {
   font-family: "Inter", sans-serif;
-  font-size: 12px;
-  color: #7B848B;
+  font-size: 14px;
+  color: #87909D;
   transition: color 0.3s ease;
 }
 .platform-icon img {
-  width: 40px;
-  height: 40px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
   transition: filter 0.3s ease;
 }
@@ -875,9 +875,9 @@ section-services-content p{
 }
 .contact-label {
   font-family: "Inter", sans-serif;
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: 1.5px;
-  color: #7B848B; /
+  color: #697484; 
   margin-bottom: 12px;
   text-transform: uppercase;
 }
@@ -892,7 +892,7 @@ section-services-content p{
   transition: color 0.3s ease;
 }
 a.contact-value:hover {
-  color: #0066FF;
+  text-decoration: underline;
 }
 .footer-divider {
   border: none;
@@ -907,15 +907,15 @@ a.contact-value:hover {
 }
 .footer-brand h3 {
   font-family: "Cardo", serif;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   color: #FFFFFF;
   margin: 0 0 6px 0;
 }
 .footer-brand span {
   font-family: "Inter", sans-serif;
-  font-size: 12px;
-  color: #7B848B;
+  font-size: 14px;
+  color: #87909D;
 }
 .footer-nav {
   display: flex;
@@ -923,8 +923,8 @@ a.contact-value:hover {
 }
 .footer-nav-link {
   font-family: "Inter", sans-serif;
-  font-size: 14px;
-  color: #7B848B;
+  font-size: 16px;
+  color: #87909D;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -933,6 +933,6 @@ a.contact-value:hover {
 }
 .footer-copyright span {
   font-family: "Inter", sans-serif;
-  font-size: 12px;
-  color: #555555; 
+  font-size: 14px;
+  color: #A5ACB5; 
 }
