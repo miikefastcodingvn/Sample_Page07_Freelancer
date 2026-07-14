@@ -1,322 +1,682 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marvin Richard</title>
-    <link rel="stylesheet" href="./styles/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
     <div class="container">
-        <header class="header" id="home">
-            <div class="wrapper">
-                <!-- <button class="mobile-menu-btn" aria-label="Toogle menu"></button> -->
-                <nav class="header-navbar__menus">
-                    <div class="header-navbar_menu-wrapper">
-                        <ul class="header-nav_menu-list">
-                            <li>
-                                <a href="#" class="nav_link" width="16" height="16" loading="eager">Home</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav_link" width="16" height="16" loading="eager">About</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav_link" width="16" height="16" loading="eager">Project</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav_link" width="16" height="16" loading="eager">Services</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav_link" width="16" height="16" loading="eager">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="header-nav__logo">
-                    <span class="header-logo_text">
-                        <strong>Marvin Richard</strong>
-                        <span>UI/UX & Product Designer</span>
-                    </span>
+      <header class="header" id="home">
+        <div class="wrapper">
+          <!-- <button class="mobile-menu-btn" aria-label="Toogle menu"></button> -->
+          <nav class="header-navbar__menus">
+            <div class="header-navbar_menu-wrapper">
+              <ul class="header-nav_menu-list">
+                <li>
+                  <a
+                    href="#"
+                    class="nav_link"
+                    width="16"
+                    height="16"
+                    loading="eager"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="nav_link"
+                    width="16"
+                    height="16"
+                    loading="eager"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="nav_link"
+                    width="16"
+                    height="16"
+                    loading="eager"
+                    >Project</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="nav_link"
+                    width="16"
+                    height="16"
+                    loading="eager"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="nav_link"
+                    width="16"
+                    height="16"
+                    loading="eager"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="header-nav__logo">
+            <span class="header-logo_text">
+              <strong>Marvin Richard</strong>
+              <span>UI/UX & Product Designer</span>
+            </span>
+          </div>
+          <nav class="header-navbar__icons">
+            <div class="header-navbar_icon-wrapper">
+              <ul class="header-navbar_icon-list">
+                <li class="header-icon-item">
+                  <a href="#" class="nav_icon_link">
+                    <img
+                      src="./icon/fb.svg"
+                      alt="Facebook"
+                      class="header-navbar_image-default"
+                    />
+                    <img
+                      src="./icon/fbhover.svg"
+                      alt="Facebook"
+                      class="header-navbar_image-hover"
+                    />
+                  </a>
+                </li>
+                <li class="header-icon-item">
+                  <a href="#" class="nav_icon_link">
+                    <img
+                      src="./icon/twitter.svg"
+                      alt="Twitter"
+                      class="header-navbar_image-default"
+                    />
+                    <img
+                      src="./icon/twitterhover.svg"
+                      alt="Twitter"
+                      class="header-navbar_image-hover"
+                    />
+                  </a>
+                </li>
+                <li class="header-icon-item">
+                  <a href="#" class="nav_icon_link">
+                    <img
+                      src="./icon/in.svg"
+                      alt="Linkedin"
+                      class="header-navbar_image-default"
+                    />
+                    <img
+                      src="./icon/inhover.svg"
+                      alt="Linkedin"
+                      class="header-navbar_image-hover"
+                    />
+                  </a>
+                </li>
+                <li class="header-icon-item">
+                  <a href="#" class="nav_icon_link">
+                    <img
+                      src="./icon/ig.svg"
+                      alt="Instagram"
+                      class="header-navbar_image-default"
+                    />
+                    <img
+                      src="./icon/ighover.svg"
+                      alt="Instagram"
+                      class="header-navbar_image-hover"
+                    />
+                  </a>
+                </li>
+                <li class="header-icon-item">
+                  <a href="#" class="nav_icon_link">
+                    <img
+                      src="./icon/dribbble.svg"
+                      alt="Dribbble"
+                      class="header-navbar_image-default"
+                    />
+                    <img
+                      src="./icon/dribbblehv.svg"
+                      alt="Dribbble"
+                      class="header-navbar_image-hover"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="section-hero">
+          <div class="section__content">
+            <h1>
+              Hey, It’s Marvin Richard.<br />
+              UI/UX & Product Designer<br />
+              Based on Los Angeles.
+            </h1>
+          </div>
+          <div class="section__scroll-down">
+            <span>Scroll down</span>
+            <span>
+              <img src="./icon/ArrowDown.svg" alt="arrowdown" />
+            </span>
+          </div>
+        </section>
+        <button class="button-theme">
+          <img
+            src="./icon/lightmode.svg"
+            alt="Light Mode"
+            class="button-theme-icon"
+          />
+        </button>
+        <section class="section-about">
+          <ul class="section-about-left-wrapper">
+            <li class="section-about-left-content">
+              <h2>Biography</h2>
+              <p>
+                Vestibulum tempor enim metus, quis tempor urna facilisis sed.
+                Sed nibh ipsum, molestie cursus dolor vitae, molestie vestibulum
+                quam.
+              </p>
+            </li>
+            <li class="section-about-left-content">
+              <h2>My Services</h2>
+              <p>• User Experience Design</p>
+              <p>• User Interface Design</p>
+              <p>• Usability Testing</p>
+            </li>
+            <li class="section-about-left-content">
+              <h2>My Locations</h2>
+              <p>
+                4517 San Francisco Ave. Manchester, Kentucky 39495, Los Angeles,
+                California, United States.
+              </p>
+            </li>
+          </ul>
+          <div class="section-about-image">
+            <img
+              src="./img/MarvinRichard.png"
+              alt="MarvinRichard"
+              width="696"
+              height="940"
+              loading="eager"
+            />
+          </div>
+          <div class="section-about-right">
+            <ul class="section-about-right-wrapper">
+              <li class="section-about-right-content">
+                <div class="section-about-right-content-image">
+                  <img src="./icon/Stack.svg" alt="Years of experience" />
                 </div>
-                <nav class="header-navbar__icons">
-                    <div class="header-navbar_icon-wrapper">
-                        <ul class="header-navbar_icon-list">
-                            <li class="header-icon-item">
-                                <a href="#" class="nav_icon_link">
-                                    <img src="./icon/fb.svg" alt="Facebook" class="header-navbar_image-default">
-                                    <img src="./icon/fbhover.svg" alt="Facebook" class="header-navbar_image-hover">
-                                </a>
-                            </li>
-                            <li class="header-icon-item">
-                                <a href="#" class="nav_icon_link">
-                                    <img src="./icon/twitter.svg" alt="Twitter" class="header-navbar_image-default">
-                                    <img src="./icon/twitterhover.svg" alt="Twitter" class="header-navbar_image-hover">
-                                </a>
-                            </li>
-                            <li class="header-icon-item">
-                                <a href="#" class="nav_icon_link">
-                                    <img src="./icon/in.svg" alt="Linkedin" class="header-navbar_image-default">
-                                    <img src="./icon/inhover.svg" alt="Linkedin" class="header-navbar_image-hover">
-                                </a>
-                            </li>
-                            <li class="header-icon-item">
-                                <a href="#" class="nav_icon_link">
-                                    <img src="./icon/ig.svg" alt="Instagram" class="header-navbar_image-default">
-                                    <img src="./icon/ighover.svg" alt="Instagram" class="header-navbar_image-hover">
-                                </a>
-                            </li>
-                            <li class="header-icon-item">
-                                <a href="#" class="nav_icon_link">
-                                    <img src="./icon/dribbble.svg" alt="Dribbble" class="header-navbar_image-default">
-                                    <img src="./icon/dribbblehv.svg" alt="Dribbble" class="header-navbar_image-hover">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div> 
-        </header>
-        <main>
-            <section class="section-hero">
-                <div class="section__content">
-                    <h1>Hey, It’s Marvin Richard.<br>
-                         UI/UX & Product Designer<br>
-                          Based on Los Angeles.</h1>
+                <div class="section-about-right-content__numbers">19+</div>
+                <div class="section-about-right-content__labels">
+                  YEARS OF EXPERIENCE
                 </div>
-                <div class="section__scroll-down">
-                    <span>Scroll down</span>
-                    <span>
-                        <img src="./icon/ArrowDown.svg">
-                    </span>
+              </li>
+              <li class="section-about-right-content">
+                <div class="section-about-right-content-image">
+                  <img src="./icon/Briefcase.svg" alt="Years of experience" />
                 </div>
-            </section>
-            <button class="button-theme">
-                <img src="./icon/lightmode.svg" alt="Light Mode" class="button-theme-icon">
+                <div class="section-about-right-content__numbers">514+</div>
+                <div class="section-about-right-content__labels">
+                  COMPLETED PROJECTS
+                </div>
+              </li>
+              <li class="section-about-right-content">
+                <div class="section-about-right-content-image">
+                  <img src="./icon/SmileyWink.svg" alt="Years of experience" />
+                </div>
+                <div class="section-about-right-content__numbers">494+</div>
+                <div class="section-about-right-content__labels">
+                  HAPPY CLIENTS
+                </div>
+              </li>
+              <li class="section-about-right-content">
+                <div class="section-about-right-content-image">
+                  <img src="./icon/Medal.svg" alt="Years of experience" />
+                </div>
+                <div class="section-about-right-content__numbers">52+</div>
+                <div class="section-about-right-content__labels">
+                  AWARDS WINNERS
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section-social-media">
+          <div class="section-social-media-content">
+            <h3>My clients all over the world</h3>
+          </div>
+          <ul class="section-social-media-wrapper">
+            <li class="section-social-media-wrapper__icons">
+              <a href="#" class="section-social-media-wrapper__icons-link">
+                <img
+                  src="./icon/amazondefault.svg"
+                  alt="Amazon"
+                  class="section-social-media-default"
+                  width="132"
+                  height="40"
+                  loading="lazy"
+                />
+                <img
+                  src="./icon/amazonhover.svg"
+                  alt="Amazon"
+                  class="section-social-media-hover"
+                  width="132"
+                  height="40"
+                  loading="lazy"
+                />
+              </a>
+            </li>
+            <li class="section-social-media-wrapper__icons">
+              <a href="#" class="section-social-media-wrapper__icons-link">
+                <img
+                  src="./icon/linkedindefault.svg"
+                  alt="Linked in"
+                  class="section-social-media-default"
+                  width="132"
+                  height="40"
+                  loading="lazy"
+                />
+                <img
+                  src="./icon/linkedinhover.svg"
+                  alt="Linked in"
+                  class="section-social-media-hover"
+                  width="132"
+                  height="40"
+                  loading="lazy"
+                />
+              </a>
+            </li>
+            <li class="section-social-media-wrapper__icons">
+              <a href="#" class="section-social-media-wrapper__icons-link">
+                <img
+                  src="./icon/mediumdefault.svg"
+                  alt="Medium"
+                  class="section-social-media-default"
+                  width="132"
+                  height="40"
+                  loading="lazy"
+                />
+                <img
+                  src="./icon/mediumhover.svg"
+                  alt="Medium"
+                  class="section-social-media-hover"
+                  width="132"
+                  height="40"
+                  loading="lazy"
+                />
+              </a>
+            </li>
+            <li class="section-social-media-wrapper__icons">
+              <a href="#" class="section-social-media-wrapper__icons-link">
+                <img
+                  src="./icon/dribbbledefault.svg"
+                  alt="Dribbble"
+                  class="section-social-media-default"
+                  width="132"
+                  height="40"
+                  loading="lazy"
+                />
+                <img
+                  src="./icon/dribbblehover.svg"
+                  alt="Dribbble"
+                  class="section-social-media-hover"
+                  width="132"
+                  height="40"
+                  loading="lazy"
+                />
+              </a>
+            </li>
+            <li class="section-social-media-wrapper__icons">
+              <a href="#" class="section-social-media-wrapper__icons-link">
+                <img
+                  src="./icon/spotifydefault.svg"
+                  alt="Spotify"
+                  class="section-social-media-default"
+                  width="132"
+                  height="40"
+                  loading="lazy"
+                />
+                <img
+                  src="./icon/spotifyhover.svg"
+                  alt="Spotify"
+                  class="section-social-media-hover"
+                  width="132"
+                  height="40"
+                  loading="lazy"
+                />
+              </a>
+            </li>
+            <li class="section-social-media-wrapper__icons">
+              <a href="#" class="section-social-media-wrapper__icons-link">
+                <img
+                  src="./icon/tumblrdefault.svg"
+                  alt="Tumblr"
+                  class="section-social-media-default"
+                  width="132"
+                  height="40"
+                  loading="lazy"
+                />
+                <img
+                  src="./icon/tumblrhover.svg"
+                  alt="Tumblr"
+                  class="section-social-media-hover"
+                  width="132"
+                  height="40"
+                  loading="lazy"
+                />
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="section-work-process">
+          <div class="section-work-process-about">
+            <h2>My work process</h2>
+            <p>
+              Vestibulum tempor enim metus, quis tempor urna facilisis sed. Sed
+              nibh ipsum, molestie cursus dolor vitae, molestie vestibulum quam.
+            </p>
+          </div>
+          <ul class="section-work-process-wrapper">
+            <li class="section-work-process-wrapper-icon">
+              <img src="./icon/Confetti.svg" alt="Introduction" />
+              <img src="./icon/01.svg" alt="Introduction" />
+              <h3>Introduction</h3>
+              <p>
+                Vestibulum tempor enim metus, quis tepor urna facilisis sed. Sed
+                nibh ipsum, molestie cursus dolor vitae.
+              </p>
+            </li>
+            <li class="section-work-process-wrapper-icon">
+              <img src="./icon/Confetti.svg" alt="Introduction" />
+              <img src="./icon/02.svg" alt="Introduction" />
+              <h3>UX Design</h3>
+              <p>
+                Vestibulum tempor enim metus, quis tepor urna facilisis sed. Sed
+                nibh ipsum, molestie cursus dolor vitae.
+              </p>
+            </li>
+            <li class="section-work-process-wrapper-icon">
+              <img src="./icon/Confetti.svg" alt="Introduction" />
+              <img src="./icon/03.svg" alt="Introduction" />
+              <h3>UI Design</h3>
+              <p>
+                Vestibulum tempor enim metus, quis tepor urna facilisis sed. Sed
+                nibh ipsum, molestie cursus dolor vitae.
+              </p>
+            </li>
+            <li class="section-work-process-wrapper-icon">
+              <img src="./icon/Confetti.svg" alt="Introduction" />
+              <img src="./icon/04.svg" alt="Introduction"/>
+              <h3>Delivery</h3>
+              <p>
+                Vestibulum tempor enim metus, quis tepor urna facilisis sed. Sed
+                nibh ipsum, molestie cursus dolor vitae.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="section-passionate">
+          <div class="section-passionate-request">
+            <div class="request-inner">
+              <h3>Do you need a designer.<br>Request a quote!</h3>
+              <p>
+                Nunc aliquam luctus tortor, id lobortis massa tincidunt ut. Duis
+                luctus posuere risus, et gravida tortor interdum sed. Donec
+                feugiat eu leo quis.
+              </p>
+              <a href="mailto:info@marvin.com">info@marvin.com</a>
+            </div>
+          </div>
+          <div class="section-passionate-designer">
+            <p class="designer-subtitle">UI/UX Designer • Product Designer • Freelancer</p>
+            <h2>I'm a passionate designer with a keen eyes for details.</h2>
+            <p class="designer-desc">
+              Nam posuere sapien vitae condimentum aliquam. Duis commodo cursus
+              mauris semper tincidunt. Sed interdum sodales dignissim. Integer
+              gravida interdum felis vitae rhus. Fusce vehicula ante ac enim
+              scelerisque pellentesque. Ut aliquet turpis vel scelerisque.
+            </p>
+            <a href="#" class="section-passionate-designer-button"
+              >let's work together
+              <img src="./icon/ArrowRight.svg" alt="Arrowright" />
+            </a>
+          </div>
+        </section>
+        <section class="section-case">
+          <div class="section-case-content">
+            <h2>Recent case study</h2>
+            <p>
+              These are a selection of my recent works. Nunc aliquam luctus
+              tortor, id lobortis massa tincidunt ut. Duis luctus posuere risus,
+              et gravida tortor.
+            </p>
+          </div>
+          <ul class="section-case-wrapper">
+            <li class="section-case-wrapper-image">
+              <img src="./img/Content.png" alt="Content"/>
+            </li>
+            <li class="section-case-wrapper-image">
+              <img src="./img/Content6.png" alt="Content"/>
+            </li>
+            <li class="section-case-wrapper-image">
+              <img src="./img/Content2.png" alt="Content"/>
+            </li>
+            <li class="section-case-wrapper-image">
+              <img src="./img/Content3.png" alt="Content"/>
+            </li>
+            <li class="section-case-wrapper-image">
+              <img src="./img/Content4.png" alt="Content"/>
+            </li>
+            <li class="section-case-wrapper-image">
+              <img src="./img/Content5.png" alt="Content"/>
+            </li>
+          </ul>
+        </section>
+        <section class="section-services">
+          <div class="section-services-content">
+            <h2>My services</h2>
+            <p>
+              Vestibulum tempor enim metus, quis tempor urna facilisis sed. Sed
+              nibh ipsum, molestie cursus dolor vitae, molestie vestibulum quam.
+            </p>
+          </div>
+          <ul class="section-services-wrapper">
+            <li class="section-services-wrapper-icon">
+              <img src="./icon/design.svg" alt="Design"/>
+              <h3>Product Design</h3>
+              <p>
+                Maecenas bibendum libero eu urna aliquet contum. In eu urna
+                risus. Nam urna nibh, tempor a orci porttitor, interdum arcu.
+              </p>
+              <a href="#" class="section-services-wrapper-icon-button"
+                >Read More
+                <img src="./icon/ArrowRightbl.svg" alt="Arrow right"/>
+              </a>
+            </li>
+            <li class="section-services-wrapper-icon">
+              <img src="./icon/user.svg" alt="User experience" />
+              <h3>Product Design</h3>
+              <p>
+                Maecenas bibendum libero eu urna aliquet contum. In eu urna
+                risus. Nam urna nibh, tempor a orci porttitor, interdum arcu.
+              </p>
+              <a href="#" class="section-services-wrapper-icon-button"
+                >Read More
+                <img src="./icon/ArrowRightbl.svg" alt="Arrow right"/>
+              </a>
+            </li>
+            <li class="section-services-wrapper-icon">
+              <img src="./icon/interface.svg" alt="User interface"/>
+              <h3>Product Design</h3>
+              <p>
+                Maecenas bibendum libero eu urna aliquet contum. In eu urna
+                risus. Nam urna nibh, tempor a orci porttitor, interdum arcu.
+              </p>
+              <a href="#" class="section-services-wrapper-icon-button"
+                >Read More
+                <img src="./icon/ArrowRightbl.svg" alt="Arrow right"/>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="section-feedback">
+          <div class="section-feedback-content">
+            <h2>My clients feedback</h2>
+            <p>
+              Vestibulum tempor enim metus, quis tempor urna facilisis sed. Sed
+              nibh ipsum, molestie cursus dolor vitae, molestie vestibulum quam.
+            </p>
+          </div>
+          <div class="feedback-slider-container">
+            <button class="swiper-btn-prev">
+                <img src="./icon/Arleftbl.svg" alt="Previous">
             </button>
-            <section class="section-about">
-                <ul class="section-about-left-wrapper">
-                    <li class="section-about-left-content">
-                        <h2>Biography</h2>
-                        <p>Vestibulum tempor enim metus, quis tempor urna facilisis sed. Sed nibh ipsum, molestie cursus dolor vitae, molestie vestibulum quam.</p>
-                    </li>
-                    <li class="section-about-left-content">
-                        <h2>My Services</h2>
-                        <p>User Experience Design</p>
-                        <p>User Interface Design</p>
-                        <p>Usability Testing</p>
-                    </li>
-                    <li class="section-about-left-content">
-                        <h2>My Locations</h2>
-                        <p>4517 San Francisco Ave. Manchester, Kentucky 39495, Los Angeles,  California, United States.</p>
-                    </li>  
-                </ul>
-                <div class="section-about-image">
-                    <img src="./img/MarvinRichard.png" alt="MarvinRichard" width="696" height="940" loading="eager">
+            <div class="swiper feedback-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide feedback-item">
+                        <div class="feedback-quote-icon">
+                            <img src="./icon/Quote.svg" alt="Quote">
+                        </div>
+                        <p class="feedback-text">
+                            “Duis tempor ultrices elit sollicitudin aliquet. Nulla facilisi. Donec sit amet nunc eros. Etiam et nisi in diam ultrices luctus in a dui. Mauris in sem aliquet ligula convallis vestibulum. Etiam non erat aliquam, lacinia nis.”
+                        </p>
+                        <div class="feedback-author">
+                            <strong class="author-name">Cameron Williamson</strong>
+                            <span class="author-role">Ceo & Founder of Google</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide feedback-item">
+                        <div class="feedback-quote-icon">
+                            <img src="./icon/" alt="Quote">
+                        </div>
+                        <p class="feedback-text">
+                            “Duis tempor ultrices elit sollicitudin aliquet. Nulla facilisi. Donec sit amet nunc eros. Etiam et nisi in diam ultrices luctus in a dui. Mauris in sem aliquet ligula convallis vestibulum. Etiam non erat aliquam, lacinia nis.”
+                        </p>
+                        <div class="feedback-author">
+                            <strong class="author-name">Cameron Williamson</strong>
+                            <span class="author-role">Ceo & Founder of Google</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide feedback-item">
+                        <div class="feedback-quote-icon">
+                            <img src="./icon/Quote.svg" alt="Quote">
+                        </div>
+                        <p class="feedback-text">
+                            “Duis tempor ultrices elit sollicitudin aliquet. Nulla facilisi. Donec sit amet nunc eros. Etiam et nisi in diam ultrices luctus in a dui. Mauris in sem aliquet ligula convallis vestibulum. Etiam non erat aliquam, lacinia nis.”
+                        </p>
+                        <div class="feedback-author">
+                            <strong class="author-name">Cameron Williamson</strong>
+                            <span class="author-role">Ceo & Founder of Google</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="section-about-right">
-                    <ul class="section-about-right-wrapper">
-                        <li class="section-about-right-content">
-                            <div class="section-about-right-content-image">
-                                <img src="./icon/Stack.svg" alt="Years of experience">
-                            </div>
-                            <div class="section-about-right-content__numbers">
-                                19+
-                            </div>
-                            <div class="section-about-right-content__labels">
-                                YEARS OF EXPERIENCE
-                            </div>
-                        </li>
-                        <li class="section-about-right-content">
-                            <div class="section-about-right-content-image">
-                                <img src="./icon/Briefcase.svg" alt="Years of experience">
-                            </div>
-                            <div class="section-about-right-content__numbers">
-                                514+
-                            </div>
-                            <div class="section-about-right-content__labels">
-                                COMPLETED PROJECTS
-                            </div>
-                        </li>
-                        <li class="section-about-right-content">
-                            <div class="section-about-right-content-image">
-                                <img src="./icon/SmileyWink.svg" alt="Years of experience">
-                            </div>
-                            <div class="section-about-right-content__numbers">
-                                494+
-                            </div>
-                            <div class="section-about-right-content__labels">
-                                HAPPY CLIENTS
-                            </div>
-                        </li>
-                        <li class="section-about-right-content">
-                            <div class="section-about-right-content-image">
-                                <img src="./icon/Medal.svg" alt="Years of experience">
-                            </div>
-                            <div class="section-about-right-content__numbers">
-                                52+
-                            </div>
-                            <div class="section-about-right-content__labels">
-                                AWARDS WINNERS
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="section-social-media">
-                <div class="section-social-media-content">
-                    <h3>My clients all over the world</h3>
-                </div>
-                <ul class="section-social-media-wrapper">
-                    <li class="section-social-media-wrapper__icons">
-                        <a href="#" class="section-social-media-wrapper__icons-link">
-                            <img src="./icon/amazondefault.svg" atl="Amazon" class="section-social-media-default" width="132" height="40" loading="lazy">
-                            <img src="./icon/amazonhover.svg" atl="Amazon" class="section-social-media-hover" width="132" height="40" loading="lazy">
-                        </a>
-                    </li>
-                    <li class="section-social-media-wrapper__icons">
-                        <a href="#" class="p-section-social-media-wrapper__icons-link">
-                            <img src="./icon/linkedindefault.svg" atl="Linked in" class="section-social-media-default" width="132" height="40" loading="lazy">
-                            <img src="./icon/linkedinhover.svg" atl="Linked in" class="section-social-media-hover" width="132" height="40" loading="lazy">
-                        </a>
-                    </li>
-                    <li class="section-social-media-wrapper__icons">
-                        <a href="#" class="p-section-social-media-wrapper__icons-link">
-                            <img src="./icon/mediumdefault.svg" atl="Medium" class="section-social-media-default" width="132" height="40" loading="lazy">
-                            <img src="./icon/mediumhover.svg" atl="Medium" class="section-social-media-hover" width="132" height="40" loading="lazy">
-                        </a>
-                    </li>
-                    <li class="section-social-media-wrapper__icons">
-                        <a href="#" class="p-section-social-media-wrapper__icons-link">
-                            <img src="./icon/dribbbledefault.svg" atl="Dribbble" class="section-social-media-default" width="132" height="40" loading="lazy">
-                            <img src="./icon/dribbblehover.svg" atl="Dribbble" class="section-social-media-hover" width="132" height="40" loading="lazy">
-                        </a>
-                    </li>
-                    <li class="section-social-media-wrapper__icons">
-                        <a href="#" class="section-social-media-wrapper__icons-link">
-                            <img src="./icon/spotifydefault.svg" atl="Spotify" class="section-social-media-default" width="132" height="40" loading="lazy">
-                            <img src="./icon/spotifyhover.svg" atl="Spotify" class="section-social-media-hover" width="132" height="40" loading="lazy">
-                        </a>
-                    </li>
-                    <li class="section-social-media-wrapper__icons">
-                        <a href="#" class="section-social-media-wrapper__icons-link">
-                            <img src="./icon/tumblrdefault.svg" atl="Tumblr" class="section-social-media-default" width="132" height="40" loading="lazy">
-                            <img src="./icon/tumblrhover.svg" atl="Tumblr" class="section-social-media-hover" width="132" height="40" loading="lazy">
-                        </a>
-                    </li>
-                </ul>
-            </section>
-            <section class="section-work-process">
-                <div class="section-work-process-about">
-                    <h2>My work process</h2>
-                    <p>Vestibulum tempor enim metus, quis tempor urna facilisis sed. Sed nibh ipsum, molestie cursus dolor vitae, molestie vestibulum quam. </p>
-                </div>
-                <ul class="section-work-process-wrapper">
-                    <li class="section-work-process-wrapper-icon">
-                        <img src="./icon/Confetti.svg" atl="Introduction">
-                        <img src="./icon/01.svg">
-                        <h3>Introduction</h3>
-                        <p>Vestibulum tempor enim metus, quis tepor urna facilisis sed. Sed nibh ipsum, molestie cursus dolor vitae.</p>
-                    </li>
-                    <li class="section-work-process-wrapper-icon">
-                        <img src="./icon/Confetti.svg" atl="Introduction">
-                        <img src="./icon/02.svg">
-                        <h3>UX Design</h3>
-                        <p>Vestibulum tempor enim metus, quis tepor urna facilisis sed. Sed nibh ipsum, molestie cursus dolor vitae.</p>
-                    </li>
-                    <li class="section-work-process-wrapper-icon">
-                        <img src="./icon/Confetti.svg" atl="Introduction">
-                        <img src="./icon/03.svg">
-                        <h3>UI Design</h3>
-                        <p>Vestibulum tempor enim metus, quis tepor urna facilisis sed. Sed nibh ipsum, molestie cursus dolor vitae.</p>
-                    </li>
-                    <li class="section-work-process-wrapper-icon">
-                        <img src="./icon/Confetti.svg" atl="Introduction">
-                        <img src="./icon/04.svg">
-                        <h3>Delivery</h3>
-                        <p>Vestibulum tempor enim metus, quis tepor urna facilisis sed. Sed nibh ipsum, molestie cursus dolor vitae.</p>
-                    </li>
-                </ul>
-            </section>
-            <section class="section-passionate">
-                <div class="section-passionate-request">
-                    <h3>Do you need a designer. Request a quote!</h3>
-                    <p>Nunc aliquam luctus tortor, id lobortis massa tincidunt ut. Duis luctus posuere risus, et gravida tortor interdum sed. Donec feugiat eu leo quis.</p>
-                    <a href="#">info@marvin.com</a>
-                </div>
-                <div class="section-passionate-designer">
-                    <p>UI/UX Designer Product Designer Freelancer</p>
-                    <h2>I'm a passionate designer with a keen eyes for details.</h2>
-                    <p>Nam posuere sapien vitae condimentum aliquam. Duis commodo cursus mauris semper tincidunt. Sed interdum sodales dignissim. Integer gravida interdum felis vitae rhus. Fusce vehicula ante ac enim scelerisque pellentesque. Ut aliquet turpis vel scelerisque. </p>
-                    <a href="#" class="section-passionate-designer-button">let’s work together
-                        <img src="./icon/ArrowRight.svg">
+            </div>
+            <button class="swiper-btn-next">
+                <img src="./icon/ArrowRightbl.svg" alt="Next">
+            </button>
+          </div>
+        </section>
+        <section class="section-contact">
+            <div class="contact-platforms-container">
+                <div class="contact-platforms-left">
+                    <h2>Have a project idea. Get in touch and let's chat!</h2>
+                    <p>Do you fancy saying hi to me or do you want to get started with your project and you need my help? Feel free to contact me</p>
+                    <a href="#" class="btn-work-together">
+                    Let's work together
+                    <img src="./icon/ArrowRightbl.svg" alt="Arrow">
                     </a>
                 </div>
-            </section>
-            <section class="section-case">
-                <div class="section-case-content">
-                    <h2>Recent case study</h2>
-                    <p>These are a selection of my recent works. Nunc aliquam luctus tortor, id lobortis massa tincidunt ut. Duis luctus posuere risus, et gravida tortor.</p>
+            </div>
+            <ul class="platforms-list">
+                <li class="platform-item">
+                    <a href="#" class="platform-link">
+                        <div class="platform-icon">
+                            <img src="./icon/fiverdefault.svg" alt="Fiverr" class="icon-default">
+                        </div>
+                        <div class="platform-info">
+                            <h3>Fiverr</h3>
+                            <span>@marvinrichard123</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="platform-item active">
+                    <a href="#" class="platform-link">
+                        <div class="platform-icon">
+                            <img src="./icon/freelancerdefault.svg" alt="Freelancer" class="icon-default">
+                        </div>
+                        <div class="platform-info">
+                            <h3>Freelancer</h3>
+                            <span>@marvinrichard123</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="platform-item">
+                    <a href="#" class="platform-link">
+                        <div class="platform-icon">
+                            <img src="./icon/upworkdefault.svg" alt="Upwork" class="icon-default">
+                        </div>
+                        <div class="platform-info">
+                            <h3>Upwork</h3>
+                            <span>@marvinrichard123</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+      </main>
+      <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-contact-card">
+                    <div class="contact-icon">
+                        <img src="./icon/email.svg" alt="Email Address">
+                    </div>
+                    <span class="contact-label">EMAIL ADDRESS</span>
+                    <a href="mailto:info@marvin.com" class="contact-value">info@marvin.com</a>
                 </div>
-                <ul class="section-case-wrapper">
-                    <li class="section-case-wrapper-image">
-                        <img src="./img/Content.png">
-                    </li>
-                    <li class="section-case-wrapper-image">
-                        <img src="./img/Content6.png">
-                    </li>
-                    <li class="section-case-wrapper-image">
-                        <img src="./img/Content2.png">
-                    </li>
-                    <li class="section-case-wrapper-image">
-                        <img src="./img/Content3.png">
-                    </li>
-                    <li class="section-case-wrapper-image">
-                        <img src="./img/Content4.png">
-                    </li>
-                    <li class="section-case-wrapper-image">
-                        <img src="./img/Content5.png">
-                    </li>
-                </ul>
-            </section>
-            <section class="section-services">
-                <div section-services-content>
-                    <h2>My services</h2>
-                    <p>Vestibulum tempor enim metus, quis tempor urna facilisis sed. Sed nibh ipsum, molestie cursus dolor vitae, molestie vestibulum quam. </p>
+                <div class="footer-contact-card">
+                    <div class="contact-icon">
+                        <img src="./icon/location.svg" alt="Location">
+                    </div>
+                    <span class="contact-label">LOCATION</span>
+                    <p class="contact-value">Los Angeles, USA</p>
                 </div>
-                <ul class="section-services-wrapper">
-                    <li class="section-services-wrapper-icon">
-                        <img src="./icon/design.svg">
-                        <h3>Product Design</h3>
-                        <p>Maecenas bibendum libero eu urna aliquet contum. In eu urna risus. Nam urna nibh, tempor a orci porttitor, interdum arcu.</p>
-                        <a href="#" class="section-services-wrapper-icon-button">Read More
-                            <img src="./icon/ArrowRightbl.svg">
-                        </a>
-                    </li>
-                    <li class="section-services-wrapper-icon">
-                        <img src="./icon/user.svg">
-                        <h3>Product Design</h3>
-                        <p>Maecenas bibendum libero eu urna aliquet contum. In eu urna risus. Nam urna nibh, tempor a orci porttitor, interdum arcu.</p>
-                        <a href="#" class="section-services-wrapper-icon-button">Read More
-                            <img src="./icon/ArrowRightbl.svg">
-                        </a>
-                    </li>
-                    <li class="section-services-wrapper-icon">
-                        <img src="./icon/interface.svg">
-                        <h3>Product Design</h3>
-                        <p>Maecenas bibendum libero eu urna aliquet contum. In eu urna risus. Nam urna nibh, tempor a orci porttitor, interdum arcu.</p>
-                        <a href="#" class="section-services-wrapper-icon-button">Read More
-                            <img src="./icon/ArrowRightbl.svg">
-                        </a>
-                    </li>
-                </ul>
-            </section>
-            <section class="section-feedback">
-                <div class="section-feedback-content">
-                    <h2>My clients feedback</h2>
-                    <p>Vestibulum tempor enim metus, quis tempor urna facilisis sed. Sed nibh ipsum, molestie cursus dolor vitae, molestie vestibulum quam. </p>
+                <div class="footer-contact-card">
+                    <div class="contact-icon">
+                        <img src="./icon/phone.svg" alt="Phone Number">
+                    </div>
+                    <span class="contact-label">PHONE NUMBER</span>
+                    <a href="tel:+12025550190" class="contact-value">+1-202-555-0190</a>
                 </div>
-            </section>
-        </main>
+            </div>
+            <hr class="footer-divider">
+            <div class="footer-bottom">
+                <div class="footer-brand">
+                    <h3>Marvin Richard</h3>
+                    <span>UI/UX & Product Designer</span>
+                </div>
+                <nav class="footer-nav">
+                    <a href="#" class="footer-nav-link">Home</a>
+                    <a href="#" class="footer-nav-link">About</a>
+                    <a href="#" class="footer-nav-link">Project</a>
+                    <a href="#" class="footer-nav-link">Services</a>
+                    <a href="#" class="footer-nav-link">Contact</a>
+                </nav>
+                <div class="footer-copyright">
+                    <span>&copy; 2022 Marvin Richard</span>
+                </div>
+            </div>
+        </div>
+      </footer>
     </div>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
 </html>
